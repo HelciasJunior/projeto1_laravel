@@ -14,8 +14,8 @@ class ModeloController extends Controller
      */
     public function index()
     {
-        //
-        return view();
+        $modelos = Modelo::all();
+        return view('modelos.index')->with(['modelos' => $modelos]);
     }
 
     /**
@@ -26,6 +26,7 @@ class ModeloController extends Controller
     public function create()
     {
         //
+        return view('modelos.create');
     }
 
     /**
