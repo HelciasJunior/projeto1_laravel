@@ -8,13 +8,13 @@
                 <div class="row">
                     <div class="form-group">
                         <label for="">Modelo do veículo</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" name="modelo">
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group">
                         <label for="">Modelo do veículo</label>
-                        <select class="form-control">
+                        <select class="form-control" name="status">
                             <option value="ativo">ativo</option>
                             <option value="inativo">inativo</option>
                         </select>
