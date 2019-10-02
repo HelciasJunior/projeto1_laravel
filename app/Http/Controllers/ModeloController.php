@@ -50,7 +50,7 @@ class ModeloController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('modelos.show');
     }
 
     /**
