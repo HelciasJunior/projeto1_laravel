@@ -19,8 +19,8 @@
                             <td>{{ $modelo->modelo }}</td>
                             <td>
                                 <a href="{{ route('modelos.show', ['modelo' => $modelo->id]) }}">Visualizar</a>
-                                <a href="#">Editar</a>
-                                <a href="#">Apagar</a>
+                                <a href="{{ route('modelos.edit', ['modelo' => $modelo->id]) }}">Editar</a>
+                                <a href="{{ route('modelos.destroy', ['modelo' => $modelo->id])  }}">Apagar</a>
                             </td>
                         </tr>
                     @endforeach
